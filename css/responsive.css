@@ -1,0 +1,206 @@
+@media only screen and (max-width: 1200px) {
+  .slider .content {
+    width: 800px;
+  }
+  .search-by-course .course-list {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .bridge-course .item {
+    margin-bottom: 1.5rem;
+  }
+  .bridge-course .item .bridge-course-footer .icons {
+    width: 100%;
+  }
+  .bridge-course .item .bridge-course-footer .icon .center:before {
+    height: 55px;
+    width: 55px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .search-pop .filter-search {
+    margin-top: 2rem;
+  }
+  header .nav-bar .row {
+    width: auto;
+  }
+  header .nav-bar .nav {
+    width: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .nav-bar .nav ul li {
+    font-size: 14px;
+    margin: 0 0.6rem;
+  }
+  header .nav-bar .nav .sign h6 {
+    font-size: 14px;
+  }
+  header .nav-bar .nav .sign .reg {
+    padding: 0.2rem 0.5rem;
+  }
+  header .nav-bar .nav .sign .log {
+    padding: 0.2rem 0.5rem;
+  }
+  header .nav-bar .nav .sign i {
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  .nav-bar .row {
+    width: auto;
+  }
+  .nav-bar .nav {
+    width: auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .nav-bar .nav ul li {
+    font-size: 14px;
+    margin: 0 0.5rem;
+  }
+  .slider .content {
+    width: 600px;
+  }
+  .slider .content h1 {
+    font-size: 28px;
+  }
+  .slider .content p {
+    font-size: 14px;
+  }
+  .search-by-course .course-list {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  .bridge-course .item {
+    margin-bottom: 1.5rem;
+  }
+  .bridge-course .item .bridge-course-footer .icons {
+    width: 100%;
+  }
+  .bridge-course .item .bridge-course-footer .icon .center:before {
+    height: 75px;
+    width: 75px;
+  }
+  .register-now .content h1 {
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .register-now .content h5 {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .register-now .content .benefits {
+    width: 100%;
+  }
+  .register-now .content .benefits h5 {
+    margin-top: 3rem;
+  }
+  .register-now .register {
+    margin-top: 3rem;
+  }
+  .about-us .image {
+    margin-bottom: 2rem;
+  }
+  footer .img-list .image {
+    height: 140px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Nunito;
+  }
+  .title p {
+    font-size: 14px;
+  }
+  header .nav-bar .row {
+    width: auto;
+  }
+  header .nav-bar .nav {
+    width: auto;
+  }
+  header .nav-bar .nav ul li {
+    font-size: 13px;
+    margin: 0 0.4rem;
+  }
+  header .nav-bar .nav ul li a i {
+    font-size: 8px;
+  }
+  header .nav-bar .nav ul li .nav-drop {
+    width: 150px;
+    z-index: 4;
+  }
+  header .nav-bar .nav ul li .nav-drop li {
+    line-height: 2.5rem;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  header .nav-bar .nav .sign h6 {
+    font-size: 13px;
+  }
+  header .nav-bar .nav .sign .reg {
+    padding: 0.2rem 0.5rem;
+  }
+  header .nav-bar .nav .sign .log {
+    padding: 0.2rem 0.5rem;
+  }
+  header .nav-bar .nav .sign i {
+    margin-right: 5px;
+    font-size: 13px;
+  }
+  .slider .content {
+    width: 500px;
+  }
+  .slider .content h1 {
+    font-size: 24px;
+  }
+  .slider .content p {
+    font-size: 12px;
+  }
+  .slider .content .button-sec {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+  .slider .content .button {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+  .slider input {
+    padding: 0.2rem;
+  }
+  .slider button {
+    padding: 0.2rem 2rem;
+  }
+  .search-by-course .courses-nav-buttons ul li {
+    padding: 0.3rem 1rem;
+    color: #000;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .search-by-course .course-list {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .bridge-course .item {
+    margin-bottom: 1.5rem;
+  }
+  .bridge-course .item .bridge-course-footer .icons {
+    width: 100%;
+  }
+  .bridge-course .item .bridge-course-footer .icon .center:before {
+    height: 65px;
+    width: 65px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

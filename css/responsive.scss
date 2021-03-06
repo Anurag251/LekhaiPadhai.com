@@ -1,0 +1,307 @@
+@media only screen and (max-width: 1200px) {
+  .slider {
+    .content {
+      width: 800px;
+    }
+  }
+  .search-by-course {
+    .course-list {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  .bridge-course {
+    .item {
+      margin-bottom: 1.5rem;
+      .bridge-course-footer {
+        .icons {
+          width: 100%;
+        }
+        .icon {
+          .center {
+            &:before {
+              height: 55px;
+              width: 55px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .search-pop {
+    .filter-search {
+      margin-top: 2rem;
+    }
+  }
+  header {
+    .nav-bar {
+      .row {
+        width: auto;
+      }
+      .nav {
+        width: auto;
+        justify-content: space-between;
+        ul {
+          li {
+            font-size: 14px;
+            margin: 0 0.6rem;
+          }
+        }
+
+        .sign {
+          h6 {
+            font-size: 14px;
+          }
+          .reg {
+            padding: 0.2rem 0.5rem;
+          }
+
+          .log {
+            padding: 0.2rem 0.5rem;
+          }
+          i {
+            margin-right: 5px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .nav-bar {
+    .row {
+      width: auto;
+    }
+    .nav {
+      width: auto;
+      justify-content: flex-start;
+      ul {
+        li {
+          font-size: 14px;
+          margin: 0 0.5rem;
+        }
+      }
+    }
+  }
+  .slider {
+    .content {
+      width: 600px;
+
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .search-by-course {
+    .course-list {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  .bridge-course {
+    .item {
+      margin-bottom: 1.5rem;
+      .bridge-course-footer {
+        .icons {
+          width: 100%;
+        }
+        .icon {
+          .center {
+            &:before {
+              height: 75px;
+              width: 75px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .register-now {
+    .content {
+      h1 {
+        font-weight: 600;
+        font-size: 50px;
+      }
+      h5 {
+        font-weight: 400;
+        font-size: 16px;
+      }
+
+      .benefits {
+        width: 100%;
+        h5 {
+          margin-top: 3rem;
+        }
+      }
+    }
+
+    .register {
+      margin-top: 3rem;
+    }
+  }
+
+  .about-us {
+    .image {
+      margin-bottom: 2rem;
+    }
+  }
+
+  footer {
+    .img-list {
+      .image {
+        height: 140px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  // header {
+  //   .header-top {
+  //     .contact-no-mail {
+  //       display: none;
+  //     }
+  //   }
+  // }
+
+  .title {
+    h1 {
+      font-size: 30px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: Nunito;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  header {
+    .nav-bar {
+      .row {
+        width: auto;
+      }
+      .nav {
+        width: auto;
+        ul {
+          li {
+            font-size: 13px;
+            margin: 0 0.4rem;
+
+            a {
+              i {
+                font-size: 8px;
+              }
+            }
+            .nav-drop {
+              width: 150px;
+              z-index: 4;
+
+              li {
+                line-height: 2.5rem;
+                position: relative;
+                text-align: center;
+                margin: 0;
+                transition: all 0.2s ease-in-out;
+              }
+            }
+          }
+        }
+
+        .sign {
+          h6 {
+            font-size: 13px;
+          }
+          .reg {
+            padding: 0.2rem 0.5rem;
+          }
+
+          .log {
+            padding: 0.2rem 0.5rem;
+          }
+          i {
+            margin-right: 5px;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+
+  .slider {
+    .content {
+      width: 500px;
+
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+
+      .button-sec {
+        padding: 0.5rem 1rem;
+        font-size: 12px;
+      }
+
+      .button {
+        padding: 0.5rem 1rem;
+        font-size: 12px;
+      }
+    }
+
+    input {
+      padding: 0.2rem;
+    }
+
+    button {
+      padding: 0.2rem 2rem;
+    }
+  }
+
+  .search-by-course {
+    .courses-nav-buttons {
+      ul {
+        li {
+          padding: 0.3rem 1rem;
+          color: #000;
+          position: relative;
+          cursor: pointer;
+          font-size: 14px;
+        }
+      }
+    }
+    .course-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .bridge-course {
+    .item {
+      margin-bottom: 1.5rem;
+      .bridge-course-footer {
+        .icons {
+          width: 100%;
+        }
+        .icon {
+          .center {
+            &:before {
+              height: 65px;
+              width: 65px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
